@@ -1,5 +1,5 @@
-INSERT INTO series (id, title, author_id, subgenre_id) VALUES (1,"Hunter x Hunter",1,1);
-INSERT INTO series (id, title, author_id, subgenre_id) VALUES (2,"Sailor Moon",2,2);
+INSERT INTO series (id, title, author_id, subgenre_id) VALUES (1, "Hunter x Hunter", 1, 1);
+INSERT INTO series (id, title, author_id, subgenre_id) VALUES (2, "Sailor Moon", 2, 2);
 
 INSERT INTO subgenres (name) VALUES ("Shonen");
 INSERT INTO subgenres (name) VALUES ("Shojo");
