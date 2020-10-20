@@ -8,7 +8,7 @@ end
 
 
 def select_value_and_count_of_most_prolific_species
-  "SELECT species.name FROM species GROUP BY(species.name) HAVING (name) ASC LIMIT 1"
+  "SELECT species.name FROM species GROUP BY(species.name)"
 end
 
 def select_name_and_series_subgenres_of_authors
